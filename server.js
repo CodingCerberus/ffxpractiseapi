@@ -43,16 +43,20 @@ const enemies  = {
     }
 }
 
-app.get('/', (request, response)=>{
-    response.sendFile(__dirname + '/index.html')
+app.get('/', (req, res)=>{
+    res.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:enemies', (request,response)=>{
-    const enemyName = request.params.enemies.toLowerCase()
+app.get('/js/main.js', (req, res)=>{
+    res.sendFile(__dirname + '/js/main.js')
+})
+
+app.get('/api/:enemies', (req, res)=>{
+    const enemyName = req.params.enemies.toLowerCase()
     if(enemies[enemyName]){
-        response.json(enemies[enemyName])
+        res.json(enemies[enemyName])
     }else{
-        response.json(rappers['cactuar'])
+        res.json(enemies['cactuar'])
     }
 })
 
