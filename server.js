@@ -866,6 +866,354 @@ const enemies  = {
         'zanmatoLevel':1
     },
 
+    //O
+
+    'ochu':{
+        'name':'Ochu',
+        'hp':7200,
+        'mp':35,
+        'location':['Moonflow'],
+        'zanmatoLevel':1
+    },
+
+    'octopus':{
+        'name':'Octopus',
+        'hp':4500,
+        'mp':1,
+        'location':['Via Purifico (Underwater)'],
+        'zanmatoLevel':1
+    },
+
+    'ogre':{
+        'name':'Ogre',
+        'hp':9400,
+        'mp':3,
+        'location':['Calm Lands'],
+        'zanmatoLevel':1
+    },
+
+    //P
+
+    'phlegyas':{
+        'name':'Phlegyas',
+        'hp':1680,
+        'mp':50,
+        'location':['Via Purifico (Underwater)'],
+        'zanmatoLevel':1
+    },
+
+    'piranha single':{
+        'name':'Piranha (Single)',
+        'hp':50,
+        'mp':1,
+        'location':['Salvage Ship (Surface, Underwater)','Besaid (Valley)'],
+        'zanmatoLevel':1
+    },
+
+    'piranha paired':{
+        'name':'Piranha (Paired)',
+        'hp':100,
+        'mp':2,
+        'location':['Salvage Ship (Surface, Underwater)','Besaid (Valley)'],
+        'zanmatoLevel':1
+    },
+
+    'piranha trio':{
+        'name':'Piranha (Trio)',
+        'hp':150,
+        'mp':3,
+        'location':['Salvage Ship (Surface, Underwater)','Underwater Ruins','Besaid (Valley)'],
+        'zanmatoLevel':1
+    },
+
+    'puroboros':{
+        'name':'Puroboros',
+        'hp':20000,
+        'mp':180,
+        'location':['Omega Ruins'],
+        'zanmatoLevel':1
+    },
+
+    //Q
+
+    'qactuar':{
+        'name':'Qactuar',
+        'hp':500,
+        'mp':1,
+        'location':['Thunder Plains'],
+        'zanmatoLevel':2
+    },
+
+    //R
+
+    'ragora':{
+        'name':'Ragora',
+        'hp':780,
+        'mp':15,
+        'location':['Kilika Woods'],
+        'zanmatoLevel':1
+    },
+
+    'raldo':{
+        'name':'Raldo',
+        'hp':240,
+        'mp':10,
+        'location':["Mi'ihen Highroad"],
+        'zanmatoLevel':1
+    },
+
+    'raptor':{
+        'name':'Raptor',
+        'hp':200,
+        'mp':45,
+        'location':['Mushroom Rock Road', 'Djose Highroad'],
+        'zanmatoLevel':1
+    },
+
+    'red element':{
+        'name':'Red Element',
+        'hp':450,
+        'mp':130,
+        'location':['Mushroom Rock Road'],
+        'zanmatoLevel':1
+    },
+
+    'remora':{
+        'name':'Remora',
+        'hp':3000,
+        'mp':22,
+        'location':['Via Purifico (Underwater)'],
+        'zanmatoLevel':1
+    },
+
+    //S
+
+    'sahagin baaj temple':{
+        'name':'Sahagin (Baaj Temple)',
+        'hp':100,
+        'mp':5,
+        'location':['Submerged Ruins (Underwater Hall)'],
+        'zanmatoLevel':1
+    },
+
+    'sahagin via purifico land':{
+        'name':'Sahagin (Via Purifico (Land))',
+        'hp':1380,
+        'mp':20,
+        'location':['Via Purifico (Land)'],
+        'zanmatoLevel':1
+    },
+
+    'sahagin via purifico underwater':{
+        'name':'Sahagin Via Purifico (Underwater)',
+        'hp':380,
+        'mp':20,
+        'location':['Via Purifico (Underwater)'],
+        'zanmatoLevel':1
+    },
+
+    'sahagin chief':{
+        'name':'Sahagin Chief',
+        'hp':170,
+        'mp':20,
+        'location':['Luca (Stadium)'],
+        'zanmatoLevel':1
+    },
+
+    'sand wolf':{
+        'name':'Sand Wolf',
+        'hp':450,
+        'mp':55,
+        'location':['Bikanel'],
+        'zanmatoLevel':1
+    },
+
+    'sand worm':{
+        'name':'Sand Worm',
+        'hp':45000,
+        'mp':100,
+        'location':['Bikanel'],
+        'zanmatoLevel':1
+    },
+
+    'sandragora':{
+        'name':'Sandragora',
+        'hp':12750,
+        'mp':3,
+        'location':['Bikanel'],
+        'zanmatoLevel':1
+    },
+
+    'shred':{
+        'name':'Shred',
+        'hp':1950,
+        'mp':30,
+        'location':['Calm Lands'],
+        'zanmatoLevel':1
+    },
+
+    'simurgh':{
+        'name':'Simurgh',
+        'hp':200,
+        'mp':27,
+        'location':['Djose Highroad'],
+        'zanmatoLevel':1
+    },
+
+    'sinscale dream zanarkand':{
+        'name':'Sinscale (Dream Zanarkand)',
+        'hp':100,
+        'mp':0,
+        'location':['Dream Zanarkand (Overpass)'],
+        'zanmatoLevel':4
+    },
+
+    'sinscale ss liki deck':{
+        'name':'Sinscale (S.S. Liki (Deck))',
+        'hp':200,
+        'mp':0,
+        'location':['S.S. Liki (Deck)'],
+        'zanmatoLevel':1
+    },
+
+    'sinscale ss liki underwater':{
+        'name':'Sinscale (S.S. Liki (Underwater))',
+        'hp':100,
+        'mp':0,
+        'location':['S.S. Liki (Underwater)'],
+        'zanmatoLevel':1
+    },
+
+    'skoll':{
+        'name':'Skoll',
+        'hp':1000,
+        'mp':60,
+        'location':['Calm Lands'],
+        'zanmatoLevel':1
+    },
+
+    'snow flan':{
+        'name':'Snow Flan',
+        'hp':600,
+        'mp':120,
+        'location':['Djose Highroad'],
+        'zanmatoLevel':1
+    },
+
+    'snow wolf':{
+        'name':'Snow Wolf',
+        'hp':400,
+        'mp':50,
+        'location':['Lake Macalania'],
+        'zanmatoLevel':1
+    },
+
+    'spirit':{
+        'name':'Spirit',
+        'hp':10000,
+        'mp':700,
+        'location':['Omega Ruins'],
+        'zanmatoLevel':1
+    },
+
+    'splasher single':{
+        'name':'Splasher (Single)',
+        'hp':200,
+        'mp':2,
+        'location':['Mt. Gagazet Cavern'],
+        'zanmatoLevel':1
+    },
+
+    'splasher paired':{
+        'name':'Splasher (Paired)',
+        'hp':400,
+        'mp':4,
+        'location':['Mt. Gagazet'],
+        'zanmatoLevel':1
+    },
+
+    'splasher trio':{
+        'name':'Splasher (Trio)',
+        'hp':600,
+        'mp':6,
+        'location':['Mt. Gagazet'],
+        'zanmatoLevel':1
+    },
+
+    'swamp mafdet':{
+        'name':'Swamp Mafdet',
+        'hp':850,
+        'mp':1,
+        'location':['Via Purifico (Land)'],
+        'zanmatoLevel':1
+    },
+
+    //T
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
+    '':{
+        'name':'',
+        'hp':,
+        'mp':,
+        'location':[''],
+        'zanmatoLevel':
+    },
+
 
 
 
