@@ -2423,4 +2423,4 @@ const enemies  = {
     }
 }
 
-export {enemies}
+module.exports = enemies
