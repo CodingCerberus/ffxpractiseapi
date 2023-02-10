@@ -9,12 +9,45 @@
 
 <body>
     <h1>Zanmato Calculator</h1>
-    <select name="monsters" id="monsterSelect">
-        <option value="bomb">Bomb</option>
-        <option value="imp">Imp</option>
-        <option value="zu">Zu</option>
-    </select>
 
+    <section>
+        <fieldset>
+            <legend>Select recruitment motivator</legend>
+            <div>
+                <input type="radio" id="defeatPowerful" name="recruitMotivation" value="defeatPowerful" checked>
+                <label for="defeatPowerful">To defeat the most powerful of enemies.</label>
+            </div>  
+
+            <div>
+                <input type="radio" id="trainSummoner" name="recruitMotivation" value="trainSummoner">
+                <label for="trainSummoner">To train as a summoner.</label>
+            </div>  
+
+            <div>
+                <input type="radio" id="defeatFiends" name="recruitMotivation" value="defeatFiends">
+                <label for="defeatFiends">To gain the power to destroy fiends.</label>
+            </div>  
+        </fieldset>
+
+        <label for="yojimboCompatability">Compatibiltiy (0-255):</label>
+        <input type="number" id="yojimboCompatability" name="yojimboCompatability" min="0" max="255" value="50">
+
+        <fieldset>
+            <div>
+                <input type="checkbox" id="overdrive" name="overdrive">
+                <label for="overdrive">Overdrive ready?</label>
+            </div>
+        </fieldset>
+
+    </section>
+
+
+
+    <section>
+        <select name="monsters" id="monsterSelect">
+
+        </select>
+    </section>
 
     <!-- <input id="monsterInput" type="text" name="" placeholder="Enter monster name">
     <button type="button" name="button">Monster look-up</button> -->
